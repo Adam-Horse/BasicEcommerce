@@ -1,0 +1,14 @@
+spring:
+  devtools:
+    restart:
+      enabled: false
+  application:
+    name: store
+  datasource:
+    url: jdbc:mysql://localhost:3306/basicecommerce?createDatabaseIfNotExist=true
+    username: root
+    password: ***REMOVED***
+  jpa:
+    show-sql: true
+  jwt:
+    secret: ${JWT_SECRET}
