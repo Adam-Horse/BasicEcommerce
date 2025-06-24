@@ -5,6 +5,8 @@ spring:
     secret: ${JWT_SECRET}
     accessTokenExpiration: 900 # Login access token lasts for 5 min (300 seconds)
     refreshTokenExpiration: 604800 # 7 days
+  profiles:
+    active: dev
 
 stripe:
   secretKey: ${STRIPE_SECRET_KEY}
