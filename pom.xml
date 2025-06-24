@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.adamhorse</groupId>
     <artifactId>BasicEcommerce</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>BasicEcommerce</name>
     <description>BasicEcommerce</description>
     <url/>
@@ -134,7 +134,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
                 <configuration>
+                    <release>21</release>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
