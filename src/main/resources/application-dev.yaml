@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/basicecommerce?createDatabaseIfNotExist=true
     username: root
-    password: ***REMOVED***
+    password: Awesomeness123
   jpa:
     show-sql: true
 
